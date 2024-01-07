@@ -1,0 +1,269 @@
+.navbar-photo, .footer {
+    background: #151515;
+}
+
+.maps {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+}
+
+.navbar-toggler {
+    border: 0;
+    border-radius: 0;
+}
+
+.footer_title {
+    margin-left: 33px;
+    color: #cfcfcf;
+    margin-top: 0;
+}
+
+.footer_lunk {
+    list-style: none;
+    margin-bottom: 30px;
+    width: 50px;
+    height: 50px;
+    transition: 1s;
+}
+
+.footer_lunk:hover {
+    transform: scale(1.2);
+}
+
+section {
+    padding: 20px 0;
+}
+
+.footer_item {
+    display: inline-block;
+    list-style: none;
+}
+
+.heading {
+    color: #cfcfcf;
+    text-align: center;
+    margin-top: 0;
+
+}
+
+.maps > iframe {
+    border-radius: 35px;
+}
+
+.footer_title1 {
+    color: #cfcfcf;
+    margin-left: 30px;
+}
+
+.footer_title2 {
+    color: #cfcfcf;
+    margin-left: 30px;
+
+}
+
+.reviews-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+.reviews {
+    border-radius: 7px;
+    background: #eee;
+    list-style: none;
+    width: 200px;
+    padding: 10px;
+    transition: 300ms;
+    display: flex;
+    flex-direction: column;
+}
+
+.reviews > img {
+    margin: 0 auto;
+}
+
+.reviews:hover {
+    transform: scale(104%);
+
+}
+
+.photo {
+    height: 60px;
+    width: 60px;
+    border-radius: 10px;
+    object-fit: cover
+}
+
+.review1 {
+    padding: 10px;
+    border-bottom: 1px solid #eaeaea;
+}
+
+.review:last-child {
+    border-bottom: none;
+}
+
+.review-text {
+    margin-bottom: 5px;
+}
+
+.review-author {
+    font-size: 16px;
+    font-weight: bold;
+    color: #999;
+}
+
+.rating-mini {
+    display: inline-block;
+    font-size: 0;
+}
+
+.rating-mini span {
+    padding: 0;
+    font-size: 20px;
+    line-height: 1;
+    color: lightgrey;
+}
+
+.rating-mini > span:before {
+    content: '★';
+}
+
+.rating-mini > span.active {
+    color: gold;
+}
+
+.logo-link {
+    color: white;
+}
+
+.carousel-item {
+    height: 100%;
+}
+
+.btn-cart, .quantity {
+    background: #b1b1b1;
+    border: 0;
+    color: black;
+}
+
+.navbar-nav {
+    margin-left: auto;
+    padding-right: 60px;
+}
+
+.carousel {
+    height: 400px;
+}
+
+.carousel-inner {
+    height: 100%;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    filter: invert(0) !important;
+    transform: scale(1.5);
+}
+
+.carousel-item.active {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carousel-img {
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+}
+
+.navbar-nav-two {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 8px !important;
+    list-style: none;
+}
+
+@media (max-width: 600px) {
+    .logo {
+        padding-left: 0 !important;
+    }
+
+    .footer_content {
+        flex-direction: column !important;
+        gap: 0 !important;
+    }
+
+    .reviews-container {
+        flex-direction: column !important;
+        align-items: center;
+    }
+
+    .navbar-nav {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center;
+        padding: 0 !important;
+    }
+
+    .maps > iframe {
+        width: 90%;
+    }
+}
+
+.navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: none !important;
+}
+
+.title {
+    color: white;
+    text-align: center;
+}
+
+.btn-add {
+    width: 25px;
+    height: 25px;
+    border-bottom-right-radius: 7px;
+    border-top-right-radius: 7px;
+}
+
+.btn-remove {
+    width: 25px;
+    height: 25px;
+    border-bottom-left-radius: 7px;
+    border-top-left-radius: 7px;
+}
+
+.btn-add-two {
+    border-radius: 7px;
+    background: #b1b1b1;
+    width: 42px;
+    height: 42px;
+}
+
+.start-price {
+    text-decoration: line-through;
+}
+
+.discount {
+    font-size: 17px;
+    color: red;
+}
+
+.price {
+    font-size: 25px;
+}
+
+body {
+    background-image: url('../images/background.jpg');
+    background-repeat: repeat;
+}

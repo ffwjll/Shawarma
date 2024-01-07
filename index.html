@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/basket.css">
+    <script defer src="js/products.js"></script>
+    <script defer src="js/basket.js"></script>
+    <script defer src="js/bootstrap.bundle.min.js"></script>
+    <title>Product cards</title>
+</head>
+<body data-bs-theme="dark">
+<header>
+    <nav id="header" class="navbar-photo navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <div class="logo d-flex gap-3 ps-5">
+                <img src="images/logo.png" alt="" class="logo_img " width="60">
+                <a href=""
+                   class="fs-6 logo-link d-flex flex-column justify-content-center align-items-center text-decoration-none">
+                    <span>ШАУРМЕЧНАЯ</span>
+                    <span style="font-size: 0.65em;">ТА САМАЯ</span>
+                </a>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#header">ГЛАВНАЯ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#map">О НАС</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#menu">МЕНЮ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#reviews">ОТЗЫВЫ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contacts">КОНТАКТЫ</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+<div id="carouselExample" class="carousel slide">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="images/photo.PNG" class="carousel-img d-block w-100" alt="...">
+            <h1 class="title">ДОБРО ПОЖАЛОВАТЬ <br> В ШАУРМЕЧНУЮ</h1>
+        </div>
+        <div class="carousel-item">
+            <img src="images/action1.PNG" class="carousel-img d-block w-100" alt="...">
+            <h1 class="title">АКЦИЯ! <br> 2 ДВЕ ШАУРМЫ ПО ЦЕНЕ 1 <br> ПОЛУЧИТЕ ВТОРУЮ БЕСПЛАТНО</h1>
+        </div>
+        <div class="carousel-item">
+            <img src="images/action2.jpg" class="carousel-img d-block w-100" alt="...">
+            <h1 class="title">АКЦИЯ! <br> ДЕНЬ ШАУРМЫ НАЧАЛСЯ: <br> ДО -30% СКИДКА</h1>
+
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+
+<h2 id="menu" class="text-center text-white mb-0 mt-3">Меню</h2>
+<section class="pt-0">
+    <div class="products-categories">
+        <div class="navbar navbar-expand-lg">
+            <ul class="navbar-nav-two m-auto p-0">
+                <li class="nav-item nav-shawarma">
+                    <a class="nav-link text-secondary">Шаурма</a>
+                </li>
+                <li class="nav-item nav-salads">
+                    <a class="nav-link text-secondary">Салаты</a>
+                </li>
+                <li class="nav-item nav-snacks">
+                    <a class="nav-link text-secondary">Снеки</a>
+                </li>
+                <li class="nav-item nav-sauces">
+                    <a class="nav-link text-secondary">Соусы</a>
+                </li>
+                <li class="nav-item nav-drinks">
+                    <a class="nav-link text-secondary">Напитки</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="products-container mx-auto" style="max-width: 900px; width: 90%">
+    </div>
+</section>
+
+<section class="reviews1">
+    <h2 id="reviews" class="heading">Отзывы покупателей</h2>
+    <div class="reviews-container">
+        <div class="reviews">
+            <img src="images/ava.png" class="photo" alt="">
+            <p class="text-dark text-center mb-1">Роман Петровский</p>
+            <div class="rating-mini mb-2 d-flex flex-row justify-content-center">
+                <span class="active"></span>
+                <span class="active"></span>
+                <span class="active"></span>
+                <span class="active"></span>
+                <span class="active"></span>
+            </div>
+            <p class="review-text text-dark">Спасибо огромное за очень
+                быструю доставку! Невероятно вкусная шаурма,
+                все на высшем уровне!! Так держать!! Теперь мы ваши постоянные клиенты!))).
+            </p>
+        </div>
+        <div class="reviews">
+            <img src="images/ava.png" class="photo" alt="">
+            <p class="text-dark text-center mb-1">Яна Еванщук</p>
+            <div class="rating-mini mb-2 d-flex flex-row justify-content-center">
+                <span class="active"></span>
+                <span class="active"></span>
+                <span class="active"></span>
+                <span class="active"></span>
+                <span class="active"></span>
+            </div>
+            <p class="review-text text-dark">Мне все нравится! Хорошая кухня,
+                выбор напитков тоже неплох, кофе капучино-мой фаворит!
+                Отдельное спасибо за хорошее обслуживание,
+                мы с друзьями ваши постоянные гости;)
+            </p>
+        </div>
+        <div class="reviews	">
+            <img src="images/ava.png" class="photo" alt="">
+            <p class="text-dark text-center mb-1">Михаил</p>
+            <div class="rating-mini mb-2 d-flex flex-row justify-content-center">
+                <span class="active"></span>
+                <span class="active"></span>
+                <span class="active"></span>
+                <span></span>
+                <span></span>
+            </div>
+            <p class="review-text text-dark">Все очень вкусно, мне понравилось,
+                но я добавил бы в шаурму ещё соуса,
+                и положил бы больше помидор.
+            </p>
+        </div>
+    </div>
+</section>
+
+<section id="map" class="map">
+    <h2 class="heading">Нас можно найти тут</h2>
+    <div class="maps">
+        <script type="text/javascript" charset="utf-8" async
+                src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A02d8dad563944ee388cd9b26e6e9e94f055ed9d8c14a55c9637f1915a23459e8&amp;width=780&amp;height=500&amp;lang=ru_RU&amp;scroll=true"
+                class="maps">
+        </script>
+    </div>
+</section>
+
+<footer id="contacts" class="footer p-0">
+    <div class="container container_footer">
+        <div class="footer_content d-flex flex-row justify-content-center gap-5 m-0 pb-3 pt-3">
+            <div>
+                <p class="footer_title1 m-0" style="width: 320px"> © 2024г. Шаурмечная та самая</p>
+                <p class="footer_title2 m-0" style="width: 320px">
+                    Контакты: +7 (980) 648-76-31 <br>
+                    Почта: ShayrmechnayTaSamay@gmail.com
+                </p>
+            </div>
+            <ul class="footer_list m-0 p-0" style="width: 160px">
+                <li class="footer_item">
+                    <a href="https://web.telegram.org" class="footer_lunk">
+                        <img src="images/image1.PNG" class="footer_lunk m-0 mt-3" alt="">
+                    </a>
+                </li>
+                <li class="footer_item">
+                    <a href="https://vk.com" class="footer_lunk">
+                        <img src="images/image2.PNG" class="footer_lunk m-0 mt-3" alt="">
+                    </a>
+                </li>
+                <li class="footer_item">
+                    <a href="https://www.youtube.com" class="footer_lunk">
+                        <img src="images/image3.PNG" class="footer_lunk m-0 mt-3" alt="">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</footer>
+<div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel"
+     tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5 text-white" id="exampleModalToggleLabel">Корзина</h1>
+                <button type="button" class="btn-close bg-white me-0" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+            </div>
+
+            <div class="modal-body pb-0">
+                <!--						<div class="d-flex justify-content-between basket__inside">-->
+                <!--							<span class="ps-2 text-white">Итого:</span>-->
+                <!--							<span class="pe-2 text-white" >-->
+                <!--								<span data-action="total">0</span>-->
+                <!--								<span>₽</span>-->
+                <!--							</span>-->
+                <!--						</div>-->
+                <!--						<hr>-->
+                <form class="mx-auto d-flex flex-column m-3 gap-2 mt-0" action="">
+                    <label>
+                        <input class="form-control" type="text" required name="user" placeholder="Введите ваше имя"
+                               maxlength="20">
+                    </label>
+                    <label>
+                        <input class="form-control" type="text" required name="city"
+                               placeholder="Введите город доставки"
+                               maxlength="40">
+                    </label>
+                    <label>
+                        <input class="form-control" type="text" required name="address"
+                               placeholder="Введите улицу и дом доставки" maxlength="50">
+                    </label>
+                    <label>
+                        <input class="form-control" type="text" required name="tel"
+                               placeholder="Введите свой номер телефона" maxlength="20">
+                    </label>
+                <button class="btn btn-light w-50 ms-auto mt-2" data-bs-target="#exampleModalToggle2"
+                        data-bs-toggle="modal" type="submit">Оформить заказ
+                </button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2"
+     tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header border-0 justify-content-center">
+                <h1 class="modal-title fs-5 text-white d-flex align-items-center gap-2" id="exampleModalToggleLabel2">
+                    <span class="text-success fs-1 pb-1">✓</span>
+                    <span>Вы успешно оформили заказ</span>
+                </h1>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- знак корзины -->
+<div class="btn btn-white border border-1 basket p-0" style="position: fixed; width: 10rem; right: 0;"
+     data-bs-target="#exampleModalToggle" data-bs-toggle="modal">
+    <img src="images/basket.png" alt="#" class="basket__image justify-content-center p-0 pe-1">
+    <span class="basket__num" data-action="count">0</span>
+</div>
+</body>
+</html>
